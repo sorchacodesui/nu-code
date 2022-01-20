@@ -1,0 +1,144 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    height: 250px;
+    max-height: 500px;
+    /* outline: 1px solid red; */
+    background-image: url(images/upsBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#page-topic {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.section-head {
+    border-bottom: 8px solid #dddddd;
+}
+
+/* Colors Section styles */
+.color-container {
+    display: inline-block;
+    margin: 15px;
+    /* border: 1px solid blue; */
+}
+.swatch {
+    display: inline-block;
+    margin: 15px 0px 0px 0px;
+    height: 100px;
+    width: 170px;
+    border: 1px solid black;
+}
+.hex {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+/* Color styles */
+.dark-blue {
+    background-color: #333366;
+}
+.dark-grey {
+    background-color:#545454;
+}
+.light-grey {
+    background-color: #e3e3e3;
+}
+.white {
+    background-color: #ffffff;
+}
+.light-blue {
+    background-color: #13A0F6;
+}
+.red {
+    background-color: #f84848;
+}
+.orange {
+    background-color: #fc7705;
+}
+.light-green {
+    background-color:#8abe48;
+}
+
+/* Typography Section styles */
+.type_container {
+    display:inline-block;
+    margin: 20px;
+    border: 1px solid rgb(79, 79, 167);
+}
+.large {
+    font-size: 66px;
+    margin: 0 0 15px 0;
+}
+.light {
+    font-weight: 100;
+}
+.regular {
+    font-weight: 500;
+}
+.bold {
+    font-weight: 700;
+}
+.typography h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+.typography h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+.typography h3 {
+    font-size: 34px;
+    font-weight: 700;
+}
+.tyopgraphy h4 {
+    font-size: 26px;
+}
+
+/* UI Elements Section styles */
+.button {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+    text-align:center;
+    border-radius: 7px;
+    color: white;
+    font-size: 14px;
+}
+.button_primary {
+    background-color: #2B459A;
+}
+.button_success {
+    background-color: #8ABE48;
+}
+.button_danger {
+    background-color: #f84848;
+}
+.button_warning {
+    background-color: #fC7705;
+}
+.button_info {
+    background-color: #0099FA;
+}
+.button_primary-active {
+    background-color: #3a66b7;
+}
+.button_success-active {
+    background-color: #668c35;
+}
+.button_danger-active {
+    background-color: #AD4848;
+}
+.button_warning-active {
+    background-color: #BA7A43;
+}
+.button_info-active {
+    background-color: #4386BA;
+}

@@ -2,74 +2,96 @@
 
 <html>
     <head>
-        <title>17.2-01 exercise - Containers Structure</title>
+        <title>17.2 exercise - USPS Style Guide</title>
+        <link rel="stylesheet" href="17-2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1 id="page-topic"></h1>
-            <!-- <img> -->
+        <header class="header">
+            <!--image placed here in stylesheet-->
         </header>
+        <h1 id="page-topic">USPS Style Guide</h1>
         <section class="colors">
             <h2 class="section-head">Primary Colors</h2>
             <div class="color-container">
                 <div class="swatch dark-blue">
-                    <div class="hex">#333366
-                        </div>
                 </div>
-                <div class="swatch dark-grey">
-                    <div class="hex">
-                        #545454
-                    </div>
-                </div>
-                <div class="swatch light-grey">
-                    <div class="hex">
-                        #E3E3E3
-                    </div>
-                </div>
-                <div class="swatch white">
-                    <div class="hex">
-                        #FFFFFF
-                    </div>
-                </div>
-                <div class="swatch light-blue">
-                    <div class="hex">
-                        #13A0F6
-                    </div>
-                </div>
-            </div> <!--closing div tag of Primary Colors color-container-->
-            <h2 class="section-head">Text Colors</h2>
-            <div class="swatch dark-blue">
                 <div class="hex">#333366
-                    </div>
+                </div>
             </div>
-            <div class="swatch dark-grey">
+            <div class="color-container">
+                <div class="swatch dark-grey">
+                </div>
                 <div class="hex">
                     #545454
                 </div>
-            </div> <!--closing div tag of Text Colors color-container-->
+            </div>    
+            <div class="color-container">
+                <div class="swatch light-grey">
+                </div>
+                <div class="hex">
+                    #E3E3E3
+                </div>
+            </div>
+            <div class="color-container">
+                <div class="swatch white">
+                </div>
+                <div class="hex">
+                    #FFFFFF
+                </div>
+            </div>
+            <div class="color-container">
+                <div class="swatch light-blue">
+                </div>
+                <div class="hex">
+                    #13A0F6
+                </div>
+            </div>
+            <h2 class="section-head">Text Colors</h2>
+            <div class="color-container">
+                <div class="swatch dark-blue">
+                </div>
+                <div class="hex">#333366
+                </div>
+            </div>
+            <div class="color-container">
+                <div class="swatch dark-grey">
+                </div> 
+                <div class="hex">
+                    #545454
+                </div>
+            </div>
             <h2 class="section-head">Alert Colors</h2>
             <div class="color-container">
                 <div class="swatch red">
-                    <div class="hex">
-                        #F84848
-                    </div>
                 </div>
+                <div class="hex">
+                    #F84848
+                </div>
+            </div>
+            <div class="color-container">
                 <div class="swatch orange">
-                    <div class="hex">
-                        #FC7705
-                    </div>
                 </div>
+                <div class="hex">
+                    #FC7705
+                </div>
+            </div>
+            <div class="color-container">
                 <div class="swatch light-blue">
-                    <div class="hex">
-                        #13A0F6
-                    </div>
                 </div>
+                <div class="hex">
+                    #13A0F6
+                </div>
+            </div>
+            <div class="color-container">
                 <div class="swatch light-green">
-                    <div class="hex">
-                        #8ABE48
-                    </div>
                 </div>
-            </div><!--closing div tag of Alert Colors color-container-->
+                <div class="hex">
+                    #8ABE48
+                </div>
+            </div>
         </section><!--end of colors section-->
         <section class="typography">
             <h2 class="section-head">Typography</h2>
@@ -102,7 +124,7 @@
         </section><!--end of typography section-->
         <section class="ui-elements">
             <h2 class="section-head">UI Elements</h2>
-            <p>Buttons</p>
+            <h3>Buttons</h3>
             <div class="button-container">
               <div class="button button_primary">Primary</div>
               <div class="button button_success">Success</div>
@@ -110,6 +132,7 @@
               <div class="button button_warning">Warning</div>
               <div class="button button_info">Info</div>
             </div>
+            <h3>Buttons - Active State</h3>
             <div class="button-container">
                 <div class="button button_primary-active">Primary Active</div>
                 <div class="button button_success-active">Success Active</div>
@@ -119,11 +142,12 @@
             </div>
         </section>
         <section class="imagery">
-            <h2 class="section-head">Logo</h2>
+            <h2 class="section-head">Logos</h2>
             <img src="images/Logo-dark.png" alt="">
             <img src="images/Logo-light.png" alt="">
             <img src="images/Logo-dark1.png" alt="">
             <img src="images/Logo-light-1.png" alt="">
         </section><!--end of imagery section-->
+        
     </body>
 </html>
