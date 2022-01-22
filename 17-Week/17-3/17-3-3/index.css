@@ -55,6 +55,8 @@ nav {
     float:left;
     width: 70%;
     border: 1px solid #333;
+    border-right: none;
+    border-bottom: none;
 }
 .intro {
     margin: 60px;
