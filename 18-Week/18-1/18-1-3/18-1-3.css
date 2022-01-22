@@ -1,3 +1,7 @@
+body {
+    margin: 0 auto;
+}
+
 /* Navigation styles */
 .logo {
     background: white;
@@ -6,7 +10,109 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.nav {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.left, .center, .right {
+    height: 50px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left .right {
+    width: 25%;
+}
+.center {
+    display: flex;
+    width: 50%;
+}
 
+.center a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+button {
+   color: black;
+    font-size: 16px;
+    padding: 15px;
+    /* width: 50%; */
+}
+.right button {
+    background-color: yellow;
+}
+.left button {
+    background-color: skyblue;
+}
 /* Column styles */
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.meal1, .meal2, .meal3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.meal1 {
+    margin-top: 20px;
+    background-image: url("img/steak.png");
+}
+.meal2 {
+    background-image: url("img/soup.png");
+} 
+.meal3 {
+    background-image: url("img/cheesecake.png");
+}
+.text {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 30%;
+    padding: 20px 40px;
+    color: white;
+}
+.text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 /* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    font-family: Arial, sans serif;
+}
+.fb {
+    color: skyblue;
+    padding: 40px;
+    text-decoration: none;
+}
+.tw {
+    color: yellow;
+    padding: 40px;
+    text-decoration: none;
+}
+.ig {
+    color: red;
+    padding: 40px;
+    text-decoration: none;
+}
