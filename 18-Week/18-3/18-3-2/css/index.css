@@ -1,13 +1,14 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
     font-family: helvetica, arial, sans-serif;
     color: white;
     grid-template-areas:
     "hover"
+    "unvisited"
     "disabled"
     ;
     height: 500px;
@@ -15,17 +16,37 @@
   .hoverMe {
     grid-area: hover;
     background-color: red;
-    color: white;
-    width: 150px;
+    width: 200px;
     text-align: center;
     height: 50px;
     transition: 0.3s;
+    border: none;
+    border-radius: 10px;
   
-  }
+   }
+   .hoverMe a {
+     color: white;
+     text-decoration: none;
+   }
   /* active state */
   .hoverMe:hover {
     background-color: #000000;
     text-decoration: underline;
   
+  }
+  .unvisited {
+    grid-area: unvisited;
+    background-color: red;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+  
+   }
+
+  .unvisited a:visited {
+    color: yellow;
   }
   

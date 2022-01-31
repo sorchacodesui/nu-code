@@ -19,7 +19,6 @@
     border-radius: 5px;
     animation: loadBar 4s;
     animation-fill-mode: forwards;
-
   }
   .movingBox {
     width: 50px;
