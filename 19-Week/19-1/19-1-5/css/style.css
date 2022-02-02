@@ -1,1 +1,38 @@
 /* Style your dropdown below! */
+html {
+    font-family: 'Open Sans';
+    background-color: #dddddd;
+}
+.container {
+    /* border: 1px solid blue; */
+    width: 400px;
+    margin: 0 auto;
+    text-align: center
+}
+
+#toggle {
+    background-color: #EE6565;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#toggle p {
+    padding: 10px;
+}
+ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    cursor: pointer;
+}
+li {
+    margin:0;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: white;
+}
+img {
+    width: 20px;
+}
