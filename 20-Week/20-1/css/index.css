@@ -7,9 +7,10 @@ footer {
     margin-top: 50px;
   }
   
-  .card {
+  /* .cardContainer {
+    margin: 1rem;
   
-  }
+  } */
   .signUp form {
     margin: 35px auto;
     background-color: #f2f2f2;
